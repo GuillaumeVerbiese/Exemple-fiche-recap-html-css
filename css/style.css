@@ -1,0 +1,96 @@
+/* =================================== */
+/* ========= Styles généraux  =========*/
+/* =================================== */
+body {
+    background-color: #e3f1ef;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+
+    width: 75%;
+    margin: 20px auto;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+/* ====================================== */
+/* =========== Styles typos ============= */
+/* ====================================== */
+h1, h2, h3, h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+h2 {
+    color: #109b88;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.definition {
+    background-color: #ffffe0;
+    text-align: center;
+    line-height: 180%;
+
+    border: 3px solid black;
+    border-radius: 10px;
+
+    padding: 50px 30px;
+
+    margin: 16px 30px 40px 30px;
+}
+
+dfn {
+    background-color: yellow;
+    font-weight: bold;
+    font-style: normal;
+}
+
+em {
+    font-style: italic;
+    text-decoration: overline;
+}
+
+/* ======================================= */
+/* =========== Styles header ============= */
+/* ======================================= */
+header {
+    background-color: #0ac3a7;
+}
+h1 span {
+    font-size: 2em;
+}
+
+/* ========================================= */
+/* =========== Styles sections ============= */
+/* ========================================= */
+#section-html, #section-css {
+    background-color: white;
+}
+
+/* ======================================= */
+/* =========== Styles footer ============= */
+/* ======================================= */
+footer {
+    background-color: #0ac3a7;
+}
+footer p {
+    text-align: center;
+    color: white;
+}
+footer a:hover {
+    font-weight: bold;
+    color: red;
+}
